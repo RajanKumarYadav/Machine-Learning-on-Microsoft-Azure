@@ -49,3 +49,11 @@
 
 
 https://github.com/syedroshanzameer/udacity-capstone
+
+https://github.com/QuirkyDataScientist1978/Microsoft-Azure-Machine-Learning-Engineer-Capstone-Project-Udacity-Final-Solution-Submission
+
+https://github.com/ObinnaIheanachor/Capstone-Project-Udacity-Machine-Learning-Engineer
+
+https://github.com/VRL2403/Capstone-Udacity_Machine_Learning_Engineer_with_Microsoft_Azure_Nanodegree_Program
+
+
