@@ -28,8 +28,19 @@ def main():
     args = parser.parse_args()
 
     # split data to train and test sets
-    dataset = Dataset.get_by_name(ws, name='diabetes')
-    dataset = dataset.to_pandas_dataframe()
+    # azureml-core of version 1.0.72 or higher is required
+    # azureml-dataprep[pandas] of version 1.1.34 or higher is required
+    from azureml.core import Workspace, Dataset
+
+    subscription_id = 'f5091c60-1c3c-430f-8d81-d802f6bf2414'
+    resource_group = 'aml-quickstarts-145333'
+    workspace_name = 'quick-starts-ws-145333'
+
+    workspace = Workspace(subscription_id, resource_group, workspace_name)
+
+    dataset = Dataset.get_by_name(workspace, name='diabetes')
+    dataset.to_pandas_dataframe()
+    
 
     # Scaling data
     scaler = StandardScaler()
