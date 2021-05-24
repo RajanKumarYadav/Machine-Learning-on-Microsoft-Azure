@@ -107,13 +107,6 @@ HyperDrive Experiments Completed :
 
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/13.hdExperimentsCompleted.PNG)
 
-
-
-### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
-
 ## Model Deployment
 
 We have deployed both the model using AutoML and HyperDrive
