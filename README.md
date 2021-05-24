@@ -1,13 +1,24 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
+# Capstone Project Udacity Machine Learning Engineer Nanodegree
 
-# Your Project Title Here
+This project is about opportunity to use the knowledge we have obtained from this Nanodegree to solve an interesting problem. In this project, we will create two models: one using Automated ML (denoted as AutoML from now on) and one customized model whose hyperparameters are tuned using HyperDrive. Then we will compare the performance of both the models and deploy the best performing model.
 
-*TODO:* Write a short introduction to your project.
+We will use an external dataset in our workspace to train a model using the different tools available in the AzureML framework as well we will deploy the model as a web service.
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+
+To setup this project we need Azure Cloud Subscription with Admin privilege. Then we have to setup Compute Instance and Compute Cluster, Compute Instance can be used for Jypyter Notebook (Python Programming) and Compute Cluster can be used for run the experiments and deploy the best model on cloud system.After that we will be using both the hyperdrive and automl API from azureml to build this project. We can choose the model we want to train, and the data we want to use. 
 
 ## Dataset
+
+In this project we have used Pima Indians Diabetes Database data from Kaggle.com.
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+Content
+The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+
+Acknowledgements
+Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. In Proceedings of the Symposium on Computer Applications and Medical Care (pp. 261--265). IEEE Computer Society Press.
+
 
 ### Overview
 *TODO*: Explain about the data you are using and where you got it from.
