@@ -1,4 +1,4 @@
-# Capstone Project Udacity Machine Learning Engineer Nanodegree
+# Capstone Project - Udacity Machine Learning Engineer Nanodegree
 
 This project is about opportunity to use the knowledge we have obtained from this Nanodegree to solve an interesting problem. In this project, we will create two models: one using Automated ML (denoted as AutoML from now on) and one customized model whose hyperparameters are tuned using HyperDrive. Then we will compare the performance of both the models and deploy the best performing model.
 
@@ -16,8 +16,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 Content
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
-Acknowledgements
-Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. In Proceedings of the Symposium on Computer Applications and Medical Care (pp. 261--265). IEEE Computer Society Press.
+
 
 
 ### Overview
@@ -55,3 +54,9 @@ https://youtu.be/jfapMS-l03g
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+## Acknowledgements
+
+Dataset - Smith, J.W., Everhart, J.E., Dickson, W.C., Knowler, W.C., & Johannes, R.S. (1988). Using the ADAP learning algorithm to forecast the onset of diabetes mellitus. In Proceedings of the Symposium on Computer Applications and Medical Care (pp. 261--265). IEEE Computer Society Press.
+
+Project Concept - Udacity Machine Learning Engineer Nanodegree Program
