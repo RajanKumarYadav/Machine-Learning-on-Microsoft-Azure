@@ -134,7 +134,9 @@ https://youtu.be/jfapMS-l03g
 ## Standout Suggestions
 
 Converting registered model to ONNX format once deployment is completed
+
 Adjusting features in dataset to address cardinality issue that AutoML had to work through
+
 Implement suggestions above around data imputation, encoding and Handling data imbalance issues
 
 ## Acknowledgements
