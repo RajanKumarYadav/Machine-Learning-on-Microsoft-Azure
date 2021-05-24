@@ -16,6 +16,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/KaggleDataset.PNG)
 
 Content
+
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
 Dataset Link
