@@ -90,21 +90,23 @@ We have achieved highest Accuracy with VotingEnsemble and Accuracy is 0.78390.
 The hyperparameter_tuning.ipynb file contains codes to train a model and perform hyperparameter tuning using HyperDrive.
 I have used ML models Scikit-learn to implement.
 
+HyperDrive Run Details :
+
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/10.hdRunDetails.PNG)
+
+
+HyperDrive Run Logs :
 
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/11.hdLog.PNG)
 
+HyperDrive Experiments Run :
+
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/12.hdExperimentsRun.PNG)
+
+HyperDrive Experiments Completed :
 
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/13.hdExperimentsCompleted.PNG)
 
-![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/14.BothEndPoints.PNG)
-
-![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/15.hdModelDeployed.PNG)
-
-![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/16.hdAppInsightEnabled.PNG)
-
-![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/17.hdChildRunSnaps.PNG)
 
 
 ### Results
@@ -113,7 +115,24 @@ I have used ML models Scikit-learn to implement.
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+
+We have deployed both the model using AutoML and HyperDrive
+
+Both End Points :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/14.BothEndPoints.PNG)
+
+HyperDrive Model Deployed :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/15.hdModelDeployed.PNG)
+
+HyperDrive App Insight Enabled :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/16.hdAppInsightEnabled.PNG)
+
+HyperDrive Child Run Snaps :
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/17.hdChildRunSnaps.PNG)
+
 
 ## Screen Recording
 
