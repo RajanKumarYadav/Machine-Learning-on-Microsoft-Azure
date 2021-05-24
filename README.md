@@ -24,11 +24,13 @@ Dataset Link
 https://www.kaggle.com/uciml/pima-indians-diabetes-database
 
 
+### Project Overview & Workflow
 
+In this project, we have created two models: one using Automated ML (denoted as AutoML from now on) and one customized model whose hyperparameters are tuned using HyperDrive. Then we compared the performance of both the models and deploy the best performing model.
 
+Architecture Diagram
 
-### Overview
-*TODO*: Explain about the data you are using and where you got it from.
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/capstone-diagram.png)
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
