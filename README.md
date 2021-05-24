@@ -15,7 +15,7 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/KaggleDataset.PNG)
 
-Content
+Content of the Dataset
 
 The datasets consists of several medical predictor variables and one target variable, Outcome. Predictor variables includes the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
 
@@ -33,21 +33,78 @@ Architecture Diagram
 ![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/capstone-diagram.png)
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+In this project we are going to solve Binary Classification Problems in which Target Variable consist Case 0 : Not Diabetic, Case 1 : Diabetic.,Furthur we will create two models: one using Automated ML (denoted as AutoML from now on) and one customized model whose hyperparameters are tuned using HyperDrive. Then we will compared the performance of both the models and deploy the best performing model, which can be consumed via any professional API Testing tools.
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+
+We are accessing the data in our workspace by creating the dataset in Microsoft Azure Blob.
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/1.RegisteringDataset.PNG)
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+
+The automl.ipynb file contains code to train a model using Automated ML. 
+
+Run Details :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/2.RunDetails.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/3.RunDetails.PNG)
+
+Experiment Completed :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/4.ExperimentCompleted.PNG)
+
+Choosing Best Model :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/5.BestModel.PNG)
+
+Deploying Best Models :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/6.DeployingBestModels.PNG)
+
+Deploying Best Models :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/7.DeployedBestModel.PNG)
+
+Deployment Using ACI :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/8.DeploymentUsingACI.PNG)
+
+Deployment Using ACI :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/8.DeploymentUsingACI_Success.PNG)
+
+Application Insight Enabled :
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/9.ApplicationInsightEnabled.PNG)
 
 ### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+We have achieved highest Accuracy with VotingEnsemble and Accuracy is 0.78390.
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/5.BestModel.PNG)
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
+The hyperparameter_tuning.ipynb file contains codes to train a model and perform hyperparameter tuning using HyperDrive.
+I have used ML models Scikit-learn to implement.
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/10.hdRunDetails.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/11.hdLog.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/12.hdExperimentsRun.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/13.hdExperimentsCompleted.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/14.BothEndPoints.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/15.hdModelDeployed.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/16.hdAppInsightEnabled.PNG)
+
+![alt text](https://github.com/RajanKumarYadav/Machine-Learning-on-Microsoft-Azure/blob/main/Screenshots/17.hdChildRunSnaps.PNG)
 
 
 ### Results
@@ -63,7 +120,10 @@ Architecture Diagram
 https://youtu.be/jfapMS-l03g
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+Converting registered model to ONNX format once deployment is completed
+Adjusting features in dataset to address cardinality issue that AutoML had to work through
+Implement suggestions above around data imputation, encoding and Handling data imbalance issues
 
 ## Acknowledgements
 
